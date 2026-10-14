@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- Codificación que permite utilizar caracteres especiales -->
+    <meta charset="utf-8">
+
+    <!-- Configuración de visualización adaptable para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Metalúrgica Tenaglia | Maquinaria Industrial y Pesada</title>
+
+    <!-- Resumen del contenido que los buscadores mostrarán en sus resultados -->
+    <meta name="description" content="Más de 50 años fabricando maquinarias eficientes para la construcción, el agro y la industria en Argentina. Fabricantes directos de adoquineras automáticas y cosechadoras.">
+
+    <!-- Palabras clave relacionadas con la temática del sitio -->
+    <meta name="keywords" content="Metalúrgica Tenaglia, Maquinaria Industrial, Adoquineras Hidráulicas, Bloqueras, Cosechadoras de Turba, Maquinaria Pesada, Automatización Industrial, Agro, Construcción, Tres Arroyos, Argentina">
+
+    <!-- Autor del documento -->
+    <meta name="author" content="Matías Cuello">
+
+    <!-- Indica a los rastreadores si deben indexar la página y seguir los enlaces -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Importamos estilos de letra --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <!-- Vinculación de la hoja de estilos externa -->
+    <link rel="stylesheet" href="css/estilos5.css">
+
+    <!-- Logo en Google -->
+    <link rel="icon" type="image/png" href="img/LogoVerdeFluor.png">
+
+    <!-- Imagen oficial para previsualizaciones en buscadores y redes sociales -->
+    <meta property="og:image" content="https://metalurgicatenaglia.ar/img/LogoGrandeMTF.jpg">
+
+    <!-- Vinculación del archivo JavaScript encargado de la interacción del sitio -->
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body class="layout-macro" id="inicio">
+
+    <!-- Cabecera principal del sitio -->
+    <header class="cabecera" id="cabecera-principal">
+
+        <!-- Logotipo que permite regresar al inicio del sitio -->
+        <a href="index.html#inicio" class="marca">
+            <img src="img/LogoGrandeMTF.jpg" alt="Logo Metalúrgica Tenaglia" class="logo-img">
+        </a>
+
+        <!-- Menú principal de navegación -->
+        <nav class="navegacion-principal" aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html#inicio" class="activo">Inicio</a></li>
+                <li><a href="maquinarias.html">Maquinarias</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Botón destinado al cambio entre modo claro y oscuro -->
+        <button class="boton-tema" onclick="cambiarTema()" title="Cambiar Día/Noche">
+            <img src="img/boton1Os.png" alt="Modo Día/Noche">
+        </button>
+
+    </header>
+
+    <!-- Banner principal de presentación de la empresa -->
+    <section class="banner-hero" id="banner-principal">
+
+        <!-- Nombre comercial de la empresa -->
+        <h1 class="titulo-principal">METALÚRGICA TENAGLIA</h1>
+
+        <!-- Mensaje destacado que resume la trayectoria de la empresa -->
+        <h2 class="subtitulo-hero">Más de 50 años de trayectoria, calidad y compromiso.</h2>
+
+        <!-- Descripción principal de la actividad de la empresa -->
+        <p>Fabricamos maquinaria pesada para el agro, la construcción y la industria.</p>
+
+        <!-- Botón que dispara la ventana modal -->
+        <button id="btn-abrir-presupuesto" class="boton-metalico" aria-label="Solicitar Cotización Técnica">
+            <img src="img/BSolOs.png" alt="Botón Solicitar Cotización">
+        </button>
+
+    </section>
+
+    <!-- Contenido principal de la página -->
+    <main class="contenido-home">
+
+        <!-- Sección que presenta los principales pilares de la empresa -->
+        <section class="propuesta-valor" aria-labelledby="titulo-propuesta">
+            <header class="encabezado-grilla">
+                <figure class="viñeta-logo">
+                    <img src="img/LogoVerdeFluor.png" alt="Símbolo Tenaglia">
+                </figure>
+                <h2 class="titulo-seccion" id="titulo-propuesta">Por qué elegirnos</h2>
+            </header>
+
+            <article class="pilar-card" id="pilar-1">
+                <h3>Innovación Nacional</h3>
+                <p>Desarrollamos soluciones mecánicas y optimizaciones automatizadas que transforman los procesos productivos tradicionales.</p>
+            </article>
+
+            <article class="pilar-card" id="pilar-2">
+                <h3>Alta Capacidad</h3>
+                <p>Equipos robustos de gran escala preparados para exigencias industriales extremas y jornadas continuas de alta producción.</p>
+            </article>
+
+            <article class="pilar-card" id="pilar-3">
+                <h3>Garantía y Puesta en Marcha</h3>
+                <p>Somos fabricantes directos. Brindamos asesoramiento técnico personalizado, repuestos e instalación en todo el territorio nacional.</p>
+            </article>
+        </section>
+        
+        <!-- Sección que agrupa las principales áreas de especialización de la empresa -->
+        <section class="sectores-industriales" aria-labelledby="titulo-sectores">
+            <header class="encabezado-grilla">
+                <figure class="viñeta-logo">
+                    <img src="img/LogoVerdeFluor.png" alt="Símbolo Tenaglia">
+                </figure>
+                <h2 class="titulo-seccion" id="titulo-sectores">Sectores de Especialización</h2>
+            </header>
+
+            <article class="tarjeta-sector" id="sector-1">
+                <figure>
+                    <img src="img/Bloquera.jpg" alt="Línea de producción de bloqueras hidráulicas automatizadas Tenaglia" class="imagen-adaptable">
+                </figure>
+                <h3>Soluciones para la Construcción</h3>
+                <p>Fabricación de adoquineras hidráulicas automatizadas y máquinas de pavimento articulado de gran escala con alta producción diaria.</p>
+                <a href="maquinarias.html#construccion" class="enlace-tarjeta">Ver maquinarias viales</a>
+            </article>
+
+            <article class="tarjeta-sector" id="sector-2">
+                <figure>
+                    <img src="img/Cosechadora.jpg" alt="Cosechadora de turba autopropulsada de gran capacidad" class="imagen-adaptable">
+                </figure>
+                <h3>Desarrollos para el Agro</h3>
+                <p>Cosechadoras de turba de gran capacidad de aspirado diseñadas para optimizar y triplicar los tiempos de recolección en el campo.</p>
+                <a href="maquinarias.html#agro" class="enlace-tarjeta">Ver línea agrícola</a>
+            </article>
+
+            <article class="tarjeta-sector" id="sector-3">
+                <figure>
+                    <img src="img/Automatización.jpg" alt="Desgarradora de bolsas para planta de reciclado" class="imagen-adaptable">
+                </figure>
+                <h3>Ingeniería de Procesos</h3>
+                <p>Diseño y construcción de sistemas de tolvas, cintas transportadoras y mezcladoras automatizadas a la medida de cada industria.</p>
+                <a href="maquinarias.html#procesos" class="enlace-tarjeta">Ver proyectos a medida</a>
+            </article>
+        </section>
+
+        <!-- Novedades / Video -->
+        <section class="seccion-novedades" aria-labelledby="titulo-novedades">
+            <header class="encabezado-grilla">
+                <figure class="viñeta-logo">
+                    <img src="img/LogoVerdeFluor.png" alt="Símbolo Tenaglia">
+                </figure>
+                <h2 class="titulo-seccion" id="titulo-novedades">Novedades</h2>
+            </header>
+
+            <article class="tarjeta-sector tarjeta-novedad">
+                <figure class="contenedor-video">
+                    <iframe 
+                        src="https://www.youtube.com/embed/gDF_fdhZkAQ" 
+                        title="Máquina para la fabricación de postes olímpicos" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </figure>
+                <h3>¡Producí tus propios postes y potenciá tu negocio!</h3>
+                <p><span class="etiqueta-maquina">Máquina para la fabricación de postes olímpicos:</span> La solución que necesitás para producir, crecer y llevar tu negocio al siguiente nivel.</p>
+                <a href="https://wa.me/5492983415875?text=Hola,%20quisiera%20consultar%20por%20la%20máquina%20de%20postes%20olímpicos." target="_blank" rel="noopener noreferrer" class="enlace-tarjeta">Consultar por esta máquina</a>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- Pie de página del sitio (Con mapa integrado y sin etiquetas W3C) -->
+    <footer class="pie-pagina" id="pie-principal">
+
+        <!-- Columna 1: Información institucional -->
+        <section class="info-empresa">
+            <h3>Metalúrgica Tenaglia</h3>
+            <p>Caseros 1050 — Tres Arroyos, Buenos Aires</p>
+            <p>Más de 50 años brindando soluciones eficientes.</p>
+            <p class="firma-autor">&copy; 2026 Matías Nicolás Cuello.</p>
+        </section>
+
+        <!-- Columna 2: Navegación -->
+        <nav class="navegacion-secundaria" aria-label="Navegación del pie de página">
+            <ul>
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="maquinarias.html">Maquinarias</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <a href="https://wa.me/5492983415875" class="icono-wa-menu" target="_blank" rel="noopener noreferrer" title="Consultar por WhatsApp">
+                        <img src="img/wsp-logo2.png" alt="WhatsApp">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Columna 3: Mapa -->
+        <section class="mapa-footer" aria-label="Ubicación en el mapa">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.842777322964!2d-60.294073!3d-38.377363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCaseros%201050%2C%20Tres%20Arroyos!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar" 
+                style="border:0;" 
+                allowfullscreen="" 
+                referrerpolicy="no-referrer-when-downgrade" 
+                title="Ubicación de Metalúrgica Tenaglia">
+            </iframe>
+        </section>
+
+    </footer>
+    
+    <!-- Ventana Emergente (Modal) de Opciones de Contacto -->
+    <div id="modal-presupuesto" class="modal-pantalla">
+        <div class="modal-tarjeta">
+            <button id="btn-cerrar-presupuesto" class="modal-cerrar" aria-label="Cerrar ventana">&times;</button>
+            
+            <h3 class="modal-titulo">¿Cómo preferís comunicarte?</h3>
+            <p class="modal-descripcion">Elegí la opción que mejor se adapte a tu necesidad:</p>
+            
+            <div class="modal-opciones">
+                <!-- Opción 1: Contacto Rápido (Lleva al chat directo) -->
+                <a href="https://wa.me/5492983415875?text=¡Hola!%20Me%20comunico%20para%20hacer%20una%20consulta." 
+                   class="opcion-enlace whatsapp" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <span>Contacto Rápido (Chat Directo)</span>
+                </a>
+                
+                <!-- Opción 2: Formulario Detallado -->
+                <a href="contacto.html" class="opcion-enlace wsp">
+                    <span>Cotización Detallada (Formulario)</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+
+</body>
+</html>
